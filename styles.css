@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center; /* Added */
+}
+
+h1 {
+    text-align: center;
+}
+
+#salesComparisonChart {
+    margin-top: 20px;
+}
+
+.container a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Background color */
+    color: white; /* Text color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.container a:hover {
+    background-color: white; /* Change background color on hover */
+    color: #007bff; /* Change text color on hover */
+}
